@@ -1,0 +1,24 @@
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+#welcomeBtn {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  font-size: 18px;
+  background: #00f0ff;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1;
+}
+canvas {
+  display: block;
+}
